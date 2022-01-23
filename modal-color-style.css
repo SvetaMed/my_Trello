@@ -1,0 +1,12 @@
+.modal{
+    visibility: hidden;
+    width: 150px;
+    height: 100px;
+    border:1px solid #ff69b4;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}

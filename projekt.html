@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="projekt_style.css" rel="stylesheet">
+    <link rel="stylesheet" href="modal-color-style.css">
+    <title>MY_Trello</title>
+
+</head>
+<body>
+<div class="app">
+    <div class="boards">
+        <div class="boards__item">
+            <span contenteditable="true" class="title"> boards title</span>
+            <button id="myBtn">...</button>
+            <div id='modalColor' class="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                   <div>
+                       <input type="color" id="input--color">
+                       <input type="submit" value="Ok" id="choose--color">
+                   </div>
+                   <div class="remove--board">
+                       <label>remove board</label>
+                       <input type="submit" value="Ok"> 
+                   </div>
+                </div>
+            </div>
+            <div class="list">
+                <div class="list__item" draggable="true">first card</div>
+             
+            </div> 
+            <div class="boards__form">
+                <input class = "input" placeholder="input card`s title"> </input>
+               
+                <div class="buttons">
+                    <button class="add__item--button" >add another task</button>
+                    <button class="cancel__item--button" >Cancel</button>
+                </div>
+            </div>
+            <div class="add__btn" >
+                <span>+</span> Add card
+            </div>
+
+        </div>
+    </div>
+    <div class="button">+</div>
+</div>
+
+
+
+    <script src="projekt_js.js"></script>
+    <!-- <script src="modal-color-js.js"></script> -->
+</body>
+</html>
